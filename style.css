@@ -94,12 +94,7 @@ header .icons a{
     border-radius: 50%;
     background: #eee;
 }
-header .icons i:hover,
-header .icons a:hover{
-        background: var(--green);
-        color: #fff;
-        transform: rotate(360deg);
-}
+
 
 header .icons #menu-bars{
     display: none;
@@ -567,14 +562,6 @@ input[type=number] {
 
 /* Media queries */
 
-@media (max-width:768px){
-    header .icons i.fa-times{
-        background: var(--green);
-        color: #fff;
-        transform: rotate(360deg);
-    }
-}
-
 
 @media (max-width:991px){
     html{
@@ -588,6 +575,17 @@ input[type=number] {
     }
 }
 @media (max-width:768px){
+    header .icons i.fa-times{
+        background: var(--green);
+        color: #fff;
+        transform: rotate(360deg);
+    }
+    header .icons i:hover,
+    header .icons a:hover{
+        background: var(--green);
+        color: #fff;
+        transform: rotate(360deg);
+    }
     header .navbar{
         position: absolute;
         top: 100%;
