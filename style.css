@@ -381,6 +381,9 @@ header .icons #menu-bars{
     font-size: 2rem;
     color: var(--black);
 }
+.menu .box-container .box .image .fa-heart:before{
+    margin-left: 1.5rem;
+}
 .menu .box-container .box .content .image .fa-heart:hover{
     background: var(--green);
     color: #fff;
@@ -629,6 +632,9 @@ input[type=number] {
         text-align:center;
     }
     .about .row .image img{
+        width: 70%;
+    }
+    .home .home-slider .slide .image img{
         width: 70%;
     }
 }
