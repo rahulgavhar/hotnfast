@@ -94,6 +94,13 @@ header .icons a{
     border-radius: 50%;
     background: #eee;
 }
+header .icons i:hover,
+header .icons a:hover{
+        background: var(--green);
+        color: #fff;
+        transform: rotate(360deg);
+}
+
 header .icons #menu-bars{
     display: none;
 }
@@ -566,18 +573,7 @@ input[type=number] {
     }
 }
 
-@media (min-width:768px){
-    header .icons i:hover{
-        background: var(--green);
-        color: #fff;
-        transform: rotate(360deg);
-    }
-    header .icons a:hover{
-        background: var(--green);
-        color: #fff;
-        transform: rotate(360deg);
-    }
-}
+
 @media (max-width:991px){
     html{
         font-size: 50%;
