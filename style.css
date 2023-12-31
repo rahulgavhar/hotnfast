@@ -624,7 +624,7 @@ input[type=number] {
     gap:1.5rem;
     }
 }
-@media (min-width:524px) and (max-width:812px){
+@media (min-width:450px) and (max-width:764px){
     .about .row{
         text-align:center;
     }
