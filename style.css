@@ -175,7 +175,9 @@ header .icons #menu-bars{
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
 }
-
+#home{
+    padding-bottom: 30px;
+}
 .home .home-slider .slide .content{
     flex: 1 1 45rem;
 }
