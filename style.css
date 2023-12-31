@@ -95,7 +95,7 @@ header .icons a{
     background: #eee;
 }
 
-header .icons i:hover,
+header .icons i#search-icon:hover,
 header .icons a:hover{
     background: var(--green);
     color: #fff;
