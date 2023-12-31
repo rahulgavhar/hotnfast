@@ -233,7 +233,7 @@ header .icons #menu-bars{
     background: #fff;
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
-    border: .1rem solid rgba(0,0,0,.2);
+    border: unset;
     position: relative;
     overflow: hidden;
     text-align: center;
