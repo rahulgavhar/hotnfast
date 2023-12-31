@@ -11,6 +11,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <style>
+        #loading{
+            background: #ffffff url(https://rahulgavhar.github.io/hotnfast/images/loading.gif) no-repeat center center;
+            height: -webkit-fill-available;
+            width: 100%;
+            position: fixed;
+            background-size: 25%;
+            z-index: 10000000;
+        }
+        @media only screen and (min-width: 750px) {
+            #loading{
+                height: 100%;
+                background-size: 15%;
+            }
+        }
+    </style>
+    <script>
+        const lc='<div id="loading"></div>';
+        document.body.insertAdjacentHTML("afterbegin",lc);
+        const preloader=document.getElementById("loading");
+        document.onreadystatechange = function() {
+      
+    if (document.readyState !== "complete") {
+	    document.querySelector("body").style.visibility = "hidden";
+            preloader.style.visibility = "visible";
+    } else {
+	    preloader.style.visibility = "hidden";
+            document.querySelector("body").style.visibility = "visible";
+    }
+};
+    </script>
     <header>
         <a href="#" class="logo">
             <img src="https://static.thenounproject.com/png/1633691-200.png" alt="" style="width: 3rem;vertical-align: sub;">
@@ -592,10 +623,6 @@
             </div>
         </div>
     </section>
-
-    <div class="loader-container">
-        <img src="https://rahulgavhar.github.io/hotnfast/images/loading.gif" alt="">
-    </div>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
