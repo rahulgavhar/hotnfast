@@ -352,7 +352,7 @@ header .icons #menu-bars{
 }
 .menu .box-container .box{
     background: #fff;
-    border: 1rem solid rgba(0,0,0,.2);
+    border: unset;
     border-radius: 1.5rem;
     box-shadow: 0 0 10px 7px grey;
 }
