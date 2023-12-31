@@ -48,7 +48,7 @@ section:nth-child(even){
     background: #eee;
 }
 header{
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
@@ -99,7 +99,7 @@ header .icons #menu-bars{
 
 
 #search-form{
-    position: sticky;
+    position: fixed;
     top: -110%;
     left: 0;
     height: 100%;
