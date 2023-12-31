@@ -71,3 +71,8 @@ var swiper = new Swiper(".review-slider", {
         },
     },
 });
+
+//disable right click
+document.addEventListener("contextmenu", function(e){
+        e.preventDefault();
+    }, false);
