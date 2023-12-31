@@ -74,6 +74,7 @@ header .navbar a{
     border-radius: .5rem;
     padding: .5rem 1.5rem;
     color: var(--light-color);
+    cursor: none;
 }
 header .navbar a.active,
 header .navbar a:hover{
@@ -82,7 +83,7 @@ header .navbar a:hover{
 }
 header .icons i,
 header .icons a{
-    cursor: pointer;
+    cursor: none;
     margin-left: .5rem;
     height: 4.5rem;
     width: 4.5rem;
