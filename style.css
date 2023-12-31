@@ -30,7 +30,7 @@ html::-webkit-scrollbar-track{
     background: transparent;
 }
 html::-webkit-scrollbar-thumb{
-    background: var(--main-color);
+    background: var(--green);
     border-radius: 5rem;
 }
 html{
