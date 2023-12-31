@@ -99,7 +99,7 @@ header .icons #menu-bars{
 
 
 #search-form{
-    position: fixed;
+    position: sticky;
     top: -110%;
     left: 0;
     height: 100%;
@@ -194,6 +194,9 @@ header .icons #menu-bars{
 
 .swiper-pagination-bullet-active{
     background: var(--green);
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+    bottom: unset;
 }
 .sub-heading{
     text-align: center;
