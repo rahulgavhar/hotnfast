@@ -19,7 +19,20 @@
     text-transform: capitalize;
     transition: all 0.2s linear;
 }
-
+::selection{
+    background: rgba(74, 168, 99, 0.4);
+    color: #fff;
+}
+html::-webkit-scrollbar{
+    width: 0.5rem;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: var(--main-color);
+    border-radius: 5rem;
+}
 html{
     font-size: 62.5%;
     overflow-x: hidden;
@@ -633,6 +646,9 @@ input[type=number] {
     }
     .about .row .image img{
         width: 70%;
+    }
+    .home .home-slider .slide {
+        text-align:center;
     }
     .home .home-slider .slide .image img{
         width: 70%;
