@@ -74,7 +74,7 @@ header .navbar a{
     border-radius: .5rem;
     padding: .5rem 1.5rem;
     color: var(--light-color);
-    cursor: none;
+    cursor:pointer;
 }
 header .navbar a.active,
 header .navbar a:hover{
@@ -83,7 +83,7 @@ header .navbar a:hover{
 }
 header .icons i,
 header .icons a{
-    cursor: none;
+    cursor:pointer;
     margin-left: .5rem;
     height: 4.5rem;
     width: 4.5rem;
@@ -95,6 +95,12 @@ header .icons a{
     background: #eee;
 }
 
+header .icons i:hover,
+header .icons a:hover{
+    background: var(--green);
+    color: #fff;
+    transform: rotate(360deg);
+}
 
 header .icons #menu-bars{
     display: none;
@@ -580,11 +586,10 @@ input[type=number] {
         color: #fff;
         transform: rotate(360deg);
     }
-    header .icons i:hover,
-    header .icons a:hover{
-        background: var(--green);
-        color: #fff;
-        transform: rotate(360deg);
+    header .navbar a,
+    header .icons i,
+    header .icons a{
+        cursor: none;
     }
     header .navbar{
         position: absolute;
