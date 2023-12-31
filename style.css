@@ -566,7 +566,7 @@ input[type=number] {
 /* Media queries */
 
 
-@media (max-width:991px){
+@media (max-width:1121px){
     html{
         font-size: 50%;
     }
