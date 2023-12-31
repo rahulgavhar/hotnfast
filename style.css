@@ -386,6 +386,7 @@ header .icons #menu-bars{
     color: #fff;
 }
 .menu .box-container .box .content{
+    margin-top:1rem;
     padding: 2rem;
     padding-top: 0;
 }
