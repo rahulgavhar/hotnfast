@@ -367,7 +367,10 @@ header .icons #menu-bars{
     background: #fff;
     border: unset;
     border-radius: 1.5rem;
-    box-shadow: 0 0 10px 7px grey;
+    box-shadow: 0 0 10px 2px grey;
+}
+.menu .box-container .box:hover{
+    box-shadow: 0 0 10px 6px grey;
 }
 .menu .box-container .box .image{
     height:25rem;
